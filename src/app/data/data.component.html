@@ -1,0 +1,5 @@
+<a routerLink="/">Go Home</a>
+
+<ul>
+    <li *ngFor="let user of records; let i = index;let even = even; let odd = odd;"[ngClass]="{odd:odd,even:even}">{{i+1 + " " + user.name + " " + user.age}}</li> 
+</ul> -->
